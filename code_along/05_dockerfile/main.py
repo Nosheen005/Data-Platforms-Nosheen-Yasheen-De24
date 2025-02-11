@@ -1,9 +1,9 @@
-from pathlib import path 
+from pathlib import Path
 
-import pandas as pd
-data_path=path(__file__).parent / "data"
+
+data_path = Path(__file__).parent / "data"
 
 print(data_path / "prog_book.csv")
 
-df= pd.read_cvs(data_path)
-print(df.head())
+
+
